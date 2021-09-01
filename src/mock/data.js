@@ -40,40 +40,8 @@ export const projectsData = [
     url: 'https://myaquariumbuilder.com',
     repo: 'https://github.com/cobidev/react-simplefolio',
     technologies: ['angular', 'aws', 'node', 'mongodb', 'devops', 'cloudfront', 'machine learning', 'scrapy', 'python', 'CI/CD', 'spacy', 'ec2']
-  }
-];
-
-export const experiencesData = [
+  },
     {
-    id: nanoid(),
-    title: 'Full-stack Software Developer',
-    company: 'Glisser',
-    companyDescription: 'An award winning audience engagement and hybrid virtual event platform.',
-    startDate: 'Dec 2019',
-    endDate: 'now',
-    img: 'glisser.jpg',
-    info: 'Part of a small team of developers working on an enterprise grade platform with peak levels of 100K+ simultaneous clients. Given huge amounts of responsibility with the product. Planned, archictected and implemented an entire new authentication system from scratch.',
-    info2: 'Driving force behind setting up automated integration tests within the CI/CD pipeline.',
-    info2: 'Driving force behind setting up automated integration tests within the CI/CD pipeline using Mocha, Chai and Supertest.',
-    url: 'https://glisser.com',
-    technologies: ['angular', 'react', 'node', 'git', 'websockets', 'sql', 'bookshelf', 'postman']
-  },
-  {
-    id: nanoid(),
-    title: 'Full-stack Software Developer',
-    company: 'LEEP',
-    img: 'exeter.png',
-    companyDescription: 'LEEP informs governments, businesses and communities on how to manage land and environment.',
-    startDate: 'May 2017',
-    endDate: 'Dec 2019',
-    info: 'Website commisioned by DEFRA through the University of Exeter.',
-    info2: 'Built the entire front and backend together with one other developer. ',
-    info3: 'Still involved with the maintenance and future proofing of the website in spare time.',
-    url: 'https://www.leep.exeter.ac.uk/nevo',
-    repo: 'https://github.com/cobidev/react-simplefolio',
-    technologies: ['angular', 'PHP', 'postgreSQL', 'geoserver', 'openlayers']
-  },
-  {
     id: nanoid(),
     title: 'Co-Founder',
     company: 'Oxyde Technologies',
@@ -111,6 +79,38 @@ export const experiencesData = [
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio',
     technologies: ['public speaking', 'html', 'css', 'javascript']
+  }
+];
+
+export const experiencesData = [
+    {
+    id: nanoid(),
+    title: 'Full-stack Software Developer',
+    company: 'Glisser',
+    companyDescription: 'An award winning audience engagement and hybrid virtual event platform.',
+    startDate: 'Dec 2019',
+    endDate: 'now',
+    img: 'glisser.jpg',
+    info: 'Part of a small team of developers working on an enterprise grade platform with peak levels of 100K+ simultaneous clients. Given huge amounts of responsibility with the product. Planned, archictected and implemented an entire new authentication system from scratch.',
+    info2: 'Driving force behind setting up automated integration tests within the CI/CD pipeline.',
+    info2: 'Driving force behind setting up automated integration tests within the CI/CD pipeline using Mocha, Chai and Supertest.',
+    url: 'https://glisser.com',
+    technologies: ['angular', 'react', 'node', 'git', 'websockets', 'sql', 'bookshelf', 'postman']
+  },
+  {
+    id: nanoid(),
+    title: 'Full-stack Software Developer',
+    company: 'LEEP',
+    img: 'exeter.png',
+    companyDescription: 'LEEP informs governments, businesses and communities on how to manage land and environment.',
+    startDate: 'May 2017',
+    endDate: 'Dec 2019',
+    info: 'Website commisioned by DEFRA through the University of Exeter.',
+    info2: 'Built the entire front and backend together with one other developer. ',
+    info3: 'Still involved with the maintenance and future proofing of the website in spare time.',
+    url: 'https://www.leep.exeter.ac.uk/nevo',
+    repo: 'https://github.com/cobidev/react-simplefolio',
+    technologies: ['angular', 'PHP', 'postgreSQL', 'geoserver', 'openlayers']
   }
 ];
 

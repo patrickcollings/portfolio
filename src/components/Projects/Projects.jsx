@@ -33,7 +33,7 @@ const Projects = ({isExperiences}) => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title={isExperiences ? "Experience" : "Projects"} />
+          <Title title={isExperiences ? "Experience" : "Projects and Responsibilities"} />
           {data.map((project) => {
             const { company, title, info, info2, info3, info4, url, repo, img, id, startDate, endDate, companyDescription, technologies } = project;
 
