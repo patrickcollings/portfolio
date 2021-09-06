@@ -35,7 +35,7 @@ const Projects = ({isExperiences}) => {
         <div className="project-wrapper">
           <Title title={isExperiences ? "Experience" : "Projects and Responsibilities"} />
           {data.map((project) => {
-            const { company, title, info, info2, info3, info4, url, repo, img, id, startDate, endDate, companyDescription, technologies } = project;
+            const { company, frontRepo, backRepo, title, info, info2, info3, info4, url, repo, img, id, startDate, endDate, companyDescription, technologies } = project;
 
             return (
               <Card style={{marginBottom: '5rem'}}>
@@ -80,6 +80,28 @@ const Projects = ({isExperiences}) => {
                             href={repo}
                           >
                             Source Code
+                          </a>
+                        )}
+
+                        {frontRepo && !isExperiences && (
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="cta-btn text-color-main"
+                            href={repo}
+                          >
+                            Frontend <i className={`fa fa-github fa-inverse`} />
+                          </a>
+                        )}
+
+                        {backRepo && !isExperiences && (
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="cta-btn text-color-main"
+                            href={repo}
+                          >
+                            Backend <i className={`fa fa-github fa-inverse`} />
                           </a>
                         )}
                       </div>

@@ -49,6 +49,9 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   I'm a full-stack developer with 4+ years experience building websites, based in London UK.                 
                 </p>
+                <p className="about-wrapper__info-text">
+                  I love to build things that people use. My proudest achievement is my product comparison platform (<a target="_blank" href="https://myaquariumbuilder.com">myaquariumbuilder.com</a>) that I designed, built and marketed over lockdown.                 
+                </p>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
