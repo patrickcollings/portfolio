@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphTwo: '',
   paragraphThree: 'Yes, design is not my strong point.',
   paragraphFour: "No, I do love building things. I'm a Computer Science Undergrad with 4+ years experience building websites. If I had to describe my style it would be `cool shit that works` || `Function over Form`.",
-  resume: 'https://www.resumemaker.online/es.php',
+  resume: 'https://docs.google.com/document/d/1KnYKHaz_yGu-dYmueNuN7ruVT7-V_G7uLuwhw02xVTo/edit?usp=sharing',
 };
 
 // PROJECTS DATA
@@ -34,11 +34,13 @@ export const projectsData = [
     info: "Designed, developed and deployed a platform to help users compare prices and plan their aquarium.",
     info2: 'Marketed and improved SEO of the platform to increase organic reach. Currently received just over 5000 unique visitors, with 300 registered accounts.',
     info3: 'Scraped and analysed data for over 10,000 items from various websites.',
+    info4: 'Huge improvements in website speed and SEO by implementing Server Side Rendering.',
     img: 'myaquariumbuilder.png',
     startDate: '2020',
     endDate: 'now',
     url: 'https://myaquariumbuilder.com',
-    repo: 'https://github.com/cobidev/react-simplefolio',
+    backRepo: 'https://github.com/patrickcollings/my-aquarium-builder-api',
+    frontRepo: 'https://github.com/patrickcollings/my-aquarium-builder-front',
     technologies: ['angular', 'aws', 'node', 'mongodb', 'devops', 'cloudfront', 'machine learning', 'scrapy', 'python', 'CI/CD', 'spacy', 'ec2']
   },
     {
@@ -52,6 +54,8 @@ export const projectsData = [
     info: 'Led the early stages of direction and development of the product.',
     info2: 'Created a MEAN stack application and deployed using Heroku. Also took charge in setting up a marketing website for prospective investors.',
     info3: 'Developed a working prototype before parting ways to progress my career.',
+    backRepo: 'https://github.com/patrickcollings/oxyde-api',
+    frontRepo: 'https://github.com/patrickcollings/oxyde-frontend',
     technologies: ['heroku', 'node', 'angular', 'mongodb', 'html', 'css', 'javascript'],
   },
   {
@@ -64,7 +68,7 @@ export const projectsData = [
     info: 'Managed a 10 person committee to organise and run events for 150 students.',
     info2: 'Worked with a variety of partners including an extremely successful Met Office hackathon.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio',
+    repo: '',
     technologies: ['leadership', 'sponsorship', 'management']
   },
   {
@@ -77,7 +81,7 @@ export const projectsData = [
     info: 'Prepared, organised and presented a web development course to 200+ students across six sessions.',
     info2: 'Taught students the basics of CSS, Javascript and HTML with the end goal to create a weather page.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio',
+    repo: '',
     technologies: ['public speaking', 'html', 'css', 'javascript']
   }
 ];
