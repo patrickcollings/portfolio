@@ -17,11 +17,11 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile.jpeg',
   paragraphOne: 'Yes, this website is a template I found online.',
   paragraphTwo: '',
   paragraphThree: 'Yes, design is not my strong point.',
-  paragraphFour: "No, I do love building things. I'm a Computer Science Undergrad with 4+ years experience building websites. If I had to describe my style it would be `cool shit that works` || `Function over Form`.",
+  paragraphFour: "I'm a Computer Science Undergrad with 4+ years experience building websites. If I had to describe my style it would be `cool shit that works` || `Function over Form`.",
   resume: 'https://docs.google.com/document/d/1KnYKHaz_yGu-dYmueNuN7ruVT7-V_G7uLuwhw02xVTo/edit?usp=sharing',
 };
 
@@ -39,7 +39,7 @@ export const projectsData = [
     img: 'myaquariumbuilder.png',
     startDate: '2020',
     endDate: 'now',
-    url: 'https://patrickcollings.github.io/my-aquarium-builder/',
+    url: 'https://myaquariumbuilder.com/',
     backRepo: 'https://github.com/patrickcollings/my-aquarium-builder-api',
     frontRepo: 'https://github.com/patrickcollings/my-aquarium-builder-front',
     technologies: [
@@ -106,7 +106,7 @@ export const projectsData = [
 export const experiencesData = [
     {
     id: nanoid(),
-    title: 'Full-stack Software Developer',
+    title: 'Senior Full-stack Software Developer',
     company: 'Glisser',
     companyDescription: 'An award winning audience engagement and hybrid virtual event platform.',
     startDate: 'Dec 2019',
@@ -114,7 +114,7 @@ export const experiencesData = [
     img: 'glisser.jpg',
     info: 'Part of a small team of developers working on an enterprise grade platform with peak levels of 100K+ simultaneous clients. Given huge amounts of responsibility with the product. Planned, archictected and implemented an entire new authentication system from scratch.',
     info2: 'Driving force behind setting up automated integration tests within the CI/CD pipeline.',
-    info2: 'Driving force behind setting up automated integration tests within the CI/CD pipeline using Mocha, Chai and Supertest.',
+    info3: 'Promoted to senior after 1.5 years, provided support for other developers and helped make key business / product decisions.',
     url: 'https://glisser.com',
     technologies: ['angular', 'react', 'node', 'git', 'websockets', 'sql', 'bookshelf', 'postman']
   },
